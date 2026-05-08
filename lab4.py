@@ -16,7 +16,7 @@ class TrafficLightRecord:
 
     def __init__(self, record_id, start_datetime, end_datetime, cars_passed, cars_waiting):
         # Используем __setattr__ для установки значений
-        self._validate_datetime(start_datetime, "дата и время включения")
+        self._validate_datetime(start_datetime, "дата и время включения БАРАБАН")
         self._validate_datetime(end_datetime, "дата и время выключения")
         self._validate_positive_int(cars_passed, "количество проехавших автомобилей")
         self._validate_positive_int(cars_waiting, "количество автомобилей в ожидании")
