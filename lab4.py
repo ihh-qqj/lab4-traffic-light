@@ -440,9 +440,9 @@ def main():
             break
 
     # Генераторы в коллекции
-    print("\n  Генератор filter_by_cars_passed (>150 проехавших):")
+    print("\n  Генератор filter_by_cars_passed (>200 проехавших):")
     found = False
-    for record in collection.filter_by_cars_passed(150):
+    for record in collection.filter_by_cars_passed(200):
         print(f"    {record}")
         found = True
     if not found:
