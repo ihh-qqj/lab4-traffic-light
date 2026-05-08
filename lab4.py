@@ -530,8 +530,11 @@ def main():
         print(f"  {new_record}")
 
     # Итоговый вывод
+
     print("\n" + "=" * 100)
     print("ИЗМЕНЕНИЕ В КЛОНЕ")
+    print("\n" + "=" * 80)
+    print("ИЗМЕНЕНИЕ В ОРИГИНАЛЕ")
     print(" ИТОГОВЫЕ ДАННЫЕ В КОЛЛЕКЦИИ:")
     collection.print_all()
 
